@@ -1,0 +1,123 @@
+/*// X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+@media (min-width: 320px) and (max-width: 575px){
+
+    .header_icon ul li {
+    float: left;
+    padding: 0 11px;
+    }
+
+.about_heading img {
+    left: 41.3%;
+}
+
+.server_heading img {
+    left: 33.3%;
+}
+.protfolio_heading img {
+    left: 30%;
+}
+.team_heading img {
+    left: 37%;
+}
+.team_main{
+	margin-top: 40px;
+}
+
+.testimonial_heading img {
+    left: 33.5%;
+}
+.testimonial_piramid {
+    top: -6%;
+    left: 45.5%;
+}
+.testimonial_content{
+	margin-bottom: 40px;
+}
+.footer_logo,
+.footer_contant,
+.footer_common_heading{
+	text-align: center;
+	margin-top: 20px;
+}
+.footer_icon {
+    margin-left: 40px;
+}
+.footer_menu{
+ text-align: center;
+}
+
+
+}
+
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px)  {
+/*body{
+    background-color: #EEE2B5;
+}*/
+
+.about_heading img {
+    left: 44%;
+}
+.server_heading img {
+    left: 38.3%;
+}
+
+.service_icon_main {
+    top: -28%;
+    left: 40%;
+}
+.protfolio_heading img {
+    left: 35.5%;
+}
+.team_heading img {
+    left: 41%;
+}
+.team_main{
+    margin-top: 40px;
+}
+.testimonial_heading img {
+    left: 38.6%;
+}
+.testimonial_Photo {
+    margin-bottom: 38px;
+    margin-top: 30px;
+}
+.footer_logo,
+.footer_contant,
+.footer_common_heading{
+    text-align: center;
+}
+.footer_icon{
+    margin-left: 160px;
+}
+.footer_menu{
+    text-align: center;
+}
+.footer_common_heading{
+    margin-top: 40px;
+}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+    .service_main {
+        margin: 0;
+    }
+    .server_heading {
+        margin-bottom: 4rem;
+    }
+    .service_icon_main {
+        left: 32%;
+    }
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199px) {  }
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px)  and (max-width: 1399px) {  }
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {  }
